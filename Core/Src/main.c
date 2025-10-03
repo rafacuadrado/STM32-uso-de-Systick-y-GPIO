@@ -84,7 +84,7 @@ int main(void)
 		LED_On(1);
 		HAL_Delay(150);
 		LED_On(2);
-		HAL_Delay(1500);
+		HAL_Delay(150);
 		LED_Off(0);
 		HAL_Delay(150);
 		LED_Off(1);
@@ -108,10 +108,11 @@ int main(void)
 			LED_On(0);
 			LED_On(1);
 			LED_On(2);
-			HAL_Delay(75);
+			HAL_Delay(150);
 			LED_Off(0);
 			LED_Off(1);
 			LED_Off(2);
+			HAL_Delay(150);
 		}
 	}
 
