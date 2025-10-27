@@ -27,6 +27,5 @@ uint8_t ReadJoy(){
 	}
 
 
-
 	return cont;
 }
